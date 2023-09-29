@@ -43,11 +43,11 @@ func TestDecode_ArwenGas(t *testing.T) {
 
 	fmt.Printf("%+v\n", bigIntOp)
 
-	erdOp := &Kalyan3104APICost{}
-	err = mapstructure.Decode(gasMap, erdOp)
+	moaOp := &Kalyan3104APICost{}
+	err = mapstructure.Decode(gasMap, moaOp)
 	assert.Nil(t, err)
 
-	fmt.Printf("%+v\n", erdOp)
+	fmt.Printf("%+v\n", moaOp)
 
 	ethOp := &EthAPICost{}
 	err = mapstructure.Decode(gasMap, ethOp)

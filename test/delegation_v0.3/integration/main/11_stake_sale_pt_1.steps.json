@@ -49,7 +49,7 @@
             "step": "transfer",
             "txId": "supply delegator 3",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator_3___________________s1",
                 "value": "1,000,000,000,000"
             }

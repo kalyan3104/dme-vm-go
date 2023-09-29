@@ -19,7 +19,7 @@
                     },
                     "code": "file:auction-mock.wasm"
                 },
-                "''endless_sack_of_erd___________s1": {
+                "''endless_sack_of_moa___________s1": {
                     "nonce": "0",
                     "balance": "1,000,000,000,000,000,000,000,000,000,000",
                     "storage": {},
@@ -307,7 +307,7 @@
             "step": "transfer",
             "txId": "8",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     8               s1",
                 "value": "801366117"
             }
@@ -332,7 +332,7 @@
             "txId": "10",
             "tx": {
                 "from": "''delegator     8               s1",
-                "to": "''endless_sack_of_erd___________s1",
+                "to": "''endless_sack_of_moa___________s1",
                 "value": "801366117"
             }
         },
@@ -379,7 +379,7 @@
             "step": "transfer",
             "txId": "13",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     7               s1",
                 "value": "1006682239"
             }
@@ -408,7 +408,7 @@
             "step": "transfer",
             "txId": "15",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     5               s1",
                 "value": "251653161"
             }
@@ -575,7 +575,7 @@
             "step": "transfer",
             "txId": "27",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     6               s1",
                 "value": "459004534"
             }
@@ -628,7 +628,7 @@
             "step": "transfer",
             "txId": "30",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "1433501913"
             }
@@ -653,7 +653,7 @@
             "txId": "32",
             "tx": {
                 "from": "''delegator     2               s1",
-                "to": "''endless_sack_of_erd___________s1",
+                "to": "''endless_sack_of_moa___________s1",
                 "value": "1433501913"
             }
         },
@@ -661,7 +661,7 @@
             "step": "transfer",
             "txId": "33",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     6               s1",
                 "value": "550528740"
             }
@@ -705,7 +705,7 @@
             "step": "transfer",
             "txId": "36",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     4               s1",
                 "value": "1714387956"
             }
@@ -730,7 +730,7 @@
             "txId": "38",
             "tx": {
                 "from": "''delegator     4               s1",
-                "to": "''endless_sack_of_erd___________s1",
+                "to": "''endless_sack_of_moa___________s1",
                 "value": "1714387956"
             }
         },
@@ -761,7 +761,7 @@
             "step": "transfer",
             "txId": "40",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "1780760936"
             }
@@ -833,7 +833,7 @@
             "step": "transfer",
             "txId": "44",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     3               s1",
                 "value": "583881787"
             }
@@ -916,7 +916,7 @@
             "step": "transfer",
             "txId": "50",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     8               s1",
                 "value": "760064160"
             }
@@ -945,7 +945,7 @@
             "step": "transfer",
             "txId": "52",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "1298592533"
             }
@@ -1084,7 +1084,7 @@
             "step": "transfer",
             "txId": "60",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     8               s1",
                 "value": "176934035"
             }
@@ -1121,7 +1121,7 @@
             "step": "transfer",
             "txId": "63",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     5               s1",
                 "value": "840198516"
             }
@@ -1150,7 +1150,7 @@
             "step": "transfer",
             "txId": "65",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     4               s1",
                 "value": "1037093802"
             }
@@ -1422,7 +1422,7 @@
             "step": "transfer",
             "txId": "79",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     4               s1",
                 "value": "1002502394"
             }
@@ -1474,7 +1474,7 @@
             "step": "transfer",
             "txId": "83",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "325665785"
             }
@@ -1523,7 +1523,7 @@
             "step": "transfer",
             "txId": "86",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     3               s1",
                 "value": "567752448"
             }
@@ -1650,7 +1650,7 @@
             "step": "transfer",
             "txId": "93",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''fuzz_owner_addr_______________s1",
                 "value": "1907783229"
             }
@@ -1679,7 +1679,7 @@
             "step": "transfer",
             "txId": "95",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     3               s1",
                 "value": "611682727"
             }
@@ -1784,7 +1784,7 @@
             "step": "transfer",
             "txId": "101",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "1106015394"
             }
@@ -2033,7 +2033,7 @@
             "step": "transfer",
             "txId": "115",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''fuzz_owner_addr_______________s1",
                 "value": "453255881"
             }
@@ -2228,7 +2228,7 @@
             "step": "transfer",
             "txId": "125",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''fuzz_owner_addr_______________s1",
                 "value": "355908774"
             }
@@ -2272,7 +2272,7 @@
             "step": "transfer",
             "txId": "128",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator     2               s1",
                 "value": "747048514"
             }

@@ -25,7 +25,7 @@
             "step": "scCall",
             "txId": "attempt to stake while paused",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegation_contract___________s1",
                 "value": "1234567890",
                 "function": "stake",

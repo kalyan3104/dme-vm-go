@@ -5,7 +5,7 @@
             "step": "transfer",
             "txId": "supply delegator 1 again",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''delegator_1___________________s1",
                 "value": "100,000,000,000,000"
             }
@@ -14,7 +14,7 @@
             "step": "transfer",
             "txId": "supply owner for stake",
             "tx": {
-                "from": "''endless_sack_of_erd___________s1",
+                "from": "''endless_sack_of_moa___________s1",
                 "to": "''node_address__________________s1",
                 "value": "011,000,000,000,000"
             }

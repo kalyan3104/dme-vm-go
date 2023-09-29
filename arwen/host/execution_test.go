@@ -963,14 +963,14 @@ func TestExecution_AsyncCall(t *testing.T) {
 	// Scenario
 	// Parent SC calls Child SC
 	// Before asyncCall, Parent sets storage, makes a value transfer to ThirdParty and finishes some data
-	// Parent performs asyncCall to Child with a sufficient amount of ERD, with arguments:
+	// Parent performs asyncCall to Child with a sufficient amount of MOA, with arguments:
 	//	* the address of ThirdParty
-	//	* number of ERD the Child should send to ThirdParty
+	//	* number of MOA the Child should send to ThirdParty
 	//  * a string, to be set as the data on the transfer to ThirdParty
 	// Child stores the received arguments to storage
 	// Child performs two transfers:
-	//	* to ThirdParty, sending the amount of ERD specified as argument in asyncCall
-	//	* to the Vault, a fixed address known by the Child, sending exactly 4 ERD with the data provided by Parent
+	//	* to ThirdParty, sending the amount of MOA specified as argument in asyncCall
+	//	* to the Vault, a fixed address known by the Child, sending exactly 4 MOA with the data provided by Parent
 	// Child finishes with "thirdparty" if the transfer to ThirdParty was successful
 	// Child finishes with "vault" if the transfer to Vault was successful
 	// Parent callBack() verifies its arguments and expects both "thirdparty" and "vault"
@@ -1004,7 +1004,7 @@ func TestExecution_AsyncCall_ChildFails(t *testing.T) {
 	// Scenario
 	// Identical to TestExecution_AsyncCall(), except that the child is
 	// instructed to call signalError().
-	// Because "vault" was not received by the callBack(), the Parent sends 4 ERD
+	// Because "vault" was not received by the callBack(), the Parent sends 4 MOA
 	// to the Vault directly.
 	parentCode := GetTestSCCode("async-call-parent", "../../")
 	childCode := GetTestSCCode("async-call-child", "../../")
@@ -1034,7 +1034,7 @@ func TestExecution_AsyncCall_CallBackFails(t *testing.T) {
 	// Scenario
 	// Identical to TestExecution_AsyncCall(), except that the child is
 	// instructed to call signalError().
-	// Because "vault" was not received by the callBack(), the Parent sends 4 ERD
+	// Because "vault" was not received by the callBack(), the Parent sends 4 MOA
 	// to the Vault directly.
 	parentCode := GetTestSCCode("async-call-parent", "../../")
 	childCode := GetTestSCCode("async-call-child", "../../")
