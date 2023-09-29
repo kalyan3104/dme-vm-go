@@ -1,0 +1,35 @@
+# ide settings
+.idea/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+/vendor
+
+/arwen/debug
+/cmd/test/test
+/cmd/testgen/dns/dns
+/cmd/arwen/arwen
+/arwendebug/testdata/db
+/cmd/arwendebug/arwendebug
+/cmd/arwendebug/db
+/ipc/tests/testdata/streams
+/ipc/tests/arwen
+/fuzz/delegation/fuzz_gen*.scen.json
+
+# VSCode settings
+.vscode
+
+tags
+
+# SmartContract compilation artefacts
+*.hex*
+*.ll
+*.o
